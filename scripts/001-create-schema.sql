@@ -203,5 +203,5 @@ ON CONFLICT (name) DO NOTHING;
 
 -- Settings
 INSERT INTO settings (whatsapp_number, site_title, site_description) VALUES
-  ('5585987654321', 'Flor & Arte - Buquês Exclusivos', 'Buquês de flores exclusivos feitos com carinho. Presenteie quem você ama com arranjos únicos e personalizados.')
+  ('5511957812861', 'Flor & Arte - Buquês Exclusivos', 'Buquês de flores exclusivos feitos com carinho. Presenteie quem você ama com arranjos únicos e personalizados.')
 ON CONFLICT DO NOTHING;
