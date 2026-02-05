@@ -64,14 +64,7 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button - Larger touch target */}
-          <button
-            type="button"
-            className="md:hidden p-3 -mr-2 text-foreground active:bg-muted rounded-lg transition-colors"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
-          >
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          
         </div>
 
         {/* Mobile Menu - Full screen overlay */}
