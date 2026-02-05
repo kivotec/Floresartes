@@ -32,36 +32,8 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <Link
-              href="/"
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              Inicio
-            </Link>
-            <Link
-              href="/catalogo"
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              Catalogo
-            </Link>
-            <Link
-              href="/personalizar"
-              className="text-foreground/80 hover:text-primary transition-colors font-medium"
-            >
-              Personalizar
-            </Link>
-          </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex items-center gap-4">
-            <Button asChild variant="default" size="lg" className="rounded-full gap-2">
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                <Phone className="h-4 w-4" />
-                {ctaText}
-              </a>
-            </Button>
-          </div>
 
           {/* Mobile Menu Button - Larger touch target */}
           
