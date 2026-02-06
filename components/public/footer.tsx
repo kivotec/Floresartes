@@ -65,7 +65,14 @@ export function Footer() {
             {new Date().getFullYear()} {siteName}. Todos os direitos reservados.
           </p>
           <p className="text-primary-foreground/80 text-sm flex items-center gap-1">
-            Feito com <Heart className="h-4 w-4 fill-current" /> para você
+            Feito com <Heart className="h-4 w-4 fill-current" /> para você por 
+            <a
+              href="https://kivotec.vercel.app"
+              target="_blank"
+              className="hover:text-primary-foreground transition-colors"
+            >
+              Kivotec
+            </a>
           </p>
         </div>
       </div>
